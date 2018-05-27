@@ -75,11 +75,12 @@ public class HomeworkTwoFacade {
      * @param name                the name of the table
      * @param numberOfBumpers     the number of bumpers in the table
      * @param prob                the probability a {@link logic.gameelements.bumper.PopBumper}
-     * @param numberOfTargets     the number of {@link logic.gameelements.target.SpotTarget}
+     * @param numberOfSpotTargets     the number of {@link logic.gameelements.target.SpotTarget}
      * @param numberOfDropTargets the number of {@link logic.gameelements.target.DropTarget}
      * @return a new table determined by the parameters
      */
-    public Table newFullPlayableTable(String name, int numberOfBumpers, double prob, int numberOfTargets, int numberOfDropTargets) {
+    public Table newFullPlayableTable(String name, int numberOfBumpers, double prob,
+                                      int numberOfSpotTargets, int numberOfDropTargets) {
         return null;
     }
 

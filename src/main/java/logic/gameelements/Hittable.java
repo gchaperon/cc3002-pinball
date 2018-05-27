@@ -11,7 +11,7 @@ package logic.gameelements;
  */
 public interface Hittable {
     /**
-     * Defines that an object have been hit.
+     * Defines that an object has been hit.
      * Implementations should consider the events that a hit to an object can trigger.
      *
      * @return the score the player obtained hitting the object
