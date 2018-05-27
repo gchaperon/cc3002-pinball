@@ -1,8 +1,7 @@
 package logic.gameelements.bumper;
 
-public class PopBumper extends AbstractBumper implements Bumper {
-
-    public PopBumper() {
+public class PopBumper extends AbstractBumper {
+    PopBumper() {
         super(3);
     }
 

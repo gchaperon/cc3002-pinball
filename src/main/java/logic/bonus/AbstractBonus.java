@@ -2,7 +2,7 @@ package logic.bonus;
 
 import controller.Game;
 
-public class AbstractBonus implements Bonus {
+public abstract class AbstractBonus implements Bonus {
     int timesTriggered;
 
     AbstractBonus() {
@@ -15,7 +15,5 @@ public class AbstractBonus implements Bonus {
     }
 
     @Override
-    public void trigger(Game game) {
-
-    }
+    abstract public void trigger(Game game);
 }

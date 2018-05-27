@@ -5,16 +5,19 @@ import logic.bonus.DropTargetBonus;
 import logic.bonus.ExtraBallBonus;
 import logic.bonus.JackPotBonus;
 import logic.table.Table;
+import visitor.BonusVisitor;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * Game logic controller class.
  *
  * @author Juan-Pablo Silva
  */
-public class Game {
+public class Game implements Observer {
     private int numberOfBalls;
     private int score;
     private List<Table> tables;
@@ -22,6 +25,10 @@ public class Game {
     private Bonus jackPotBonus;
     private Bonus extraBallBonus;
     private Bonus dropTargetBonus;
+
+    public Game() {
+        this(5);
+    }
 
     public Game(int numberOfBalls) {
         this.numberOfBalls = numberOfBalls;
@@ -58,4 +65,14 @@ public class Game {
     public Bonus getDropTargetBonus() {
         return dropTargetBonus;
     }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        this.accept((BonusVisitor) arg);
+    }
+
+    private void accept(BonusVisitor visitor) {
+        visitor.visitGame(this);
+    }
+
 }
