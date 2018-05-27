@@ -3,7 +3,7 @@ package logic.bonus;
 import controller.Game;
 
 public class AbstractBonus implements Bonus {
-    private int timesTriggered;
+    int timesTriggered;
 
     AbstractBonus() {
         this.timesTriggered = 0;
