@@ -33,6 +33,13 @@ public interface Table {
     int getCurrentlyDroppedDropTargets();
 
     /**
+     * Sets the number of {@link logic.gameelements.target.DropTarget} that are currently dropped
+     *
+     * @param num   the new number of currentlyDroppedDropTargets
+     */
+    void setCurrentlyDroppedDropTargets(int num);
+
+    /**
      * Gets the {@link List} of {@link Bumper}s in the table.
      *
      * @return the bumpers in the table
@@ -62,4 +69,5 @@ public interface Table {
      * @return true if the table is playable, false otherwise
      */
     boolean isPlayableTable();
+
 }

@@ -4,7 +4,7 @@ import visitor.JackPotBonusVisitor;
 
 public class SpotTarget extends AbstractTarget {
 
-    SpotTarget() {
+    public SpotTarget() {
         super(1.0);
     }
 
@@ -12,7 +12,7 @@ public class SpotTarget extends AbstractTarget {
     public int hit() {
         if (this.isActive()) {
             setChanged();
-            notifyObservers(new JackPotBonusVisitor(this.probBonus));
+            notifyObservers(new JackPotBonusVisitor());
             this.isActive = false;
 
             return this.getScore();

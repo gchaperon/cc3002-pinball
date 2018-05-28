@@ -4,12 +4,8 @@ import controller.Game;
 
 public class JackPotBonusVisitor extends BonusVisitor {
 
-    public JackPotBonusVisitor(double prob) {
-        super(prob);
-    }
-
-    public JackPotBonusVisitor(double prob, long seed) {
-        super(prob, seed);
+    public JackPotBonusVisitor() {
+        super(1.0);
     }
 
     @Override

@@ -5,7 +5,7 @@ import visitor.ExtraBallBonusVisitor;
 
 public class DropTarget extends AbstractTarget {
 
-    DropTarget() {
+    public DropTarget() {
         super(0.3);
     }
 

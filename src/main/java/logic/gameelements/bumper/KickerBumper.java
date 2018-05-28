@@ -1,7 +1,7 @@
 package logic.gameelements.bumper;
 
 public class KickerBumper extends AbstractBumper {
-    KickerBumper() {
+    public KickerBumper() {
         super(5);
     }
 
