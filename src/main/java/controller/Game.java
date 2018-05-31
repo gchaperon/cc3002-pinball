@@ -4,7 +4,6 @@ import logic.bonus.Bonus;
 import logic.bonus.DropTargetBonus;
 import logic.bonus.ExtraBallBonus;
 import logic.bonus.JackPotBonus;
-import logic.table.ConcreteTable;
 import logic.table.NullTable;
 import logic.table.Table;
 import visitor.BonusVisitor;
@@ -22,29 +21,19 @@ import java.util.Observer;
 public class Game implements Observer {
     private int numberOfBalls;
     private int score;
-    private long seed;
-    private List<Table> tables;
-    private int currentTableIndex;
+    private Table table;
     private Bonus jackPotBonus;
     private Bonus extraBallBonus;
     private Bonus dropTargetBonus;
 
     public Game() {
-        this(5, System.currentTimeMillis());
+        this(5);
     }
 
-    public Game(long seed) {
-        this(5, seed);
-    }
-
-    public Game(int numberOfBalls, long seed) {
+    public Game(int numberOfBalls) {
         this.numberOfBalls = numberOfBalls;
         this.score = 0;
-        this.seed = seed;
-
-        this.tables = new ArrayList<Table>();
-        this.tables.add(new NullTable());
-        this.currentTableIndex = 0;
+        this.table = new NullTable();
 
         this.jackPotBonus = new JackPotBonus();
         this.extraBallBonus = new ExtraBallBonus();
@@ -58,7 +47,7 @@ public class Game implements Observer {
     }
 
     public Table getCurrentTable() {
-        return this.tables.get(this.currentTableIndex);
+        return this.table;
     }
 
     public Bonus getJackPotBonus() {
@@ -99,13 +88,7 @@ public class Game implements Observer {
     }
 
     public void setTable(Table newTable) {
-        if (tables.contains(newTable)) {
-            this.currentTableIndex = tables.indexOf(newTable);
-        }
-        else {
-            tables.add(newTable);
-            this.currentTableIndex = tables.size() - 1;
-        }
+        this.table = newTable;
     }
 
     public boolean isOver() {

@@ -1,8 +1,8 @@
 package logic.gameelements.bumper;
 
 public class KickerBumper extends AbstractBumper {
-    public KickerBumper() {
-        super(5);
+    public KickerBumper(long seed) {
+        super(5, seed);
     }
 
     @Override

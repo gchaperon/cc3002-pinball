@@ -9,7 +9,7 @@ package logic.gameelements;
  * @see logic.gameelements.bumper.Bumper
  * @see logic.gameelements.target.Target
  */
-public interface Hittable {
+public interface Hittable{
     /**
      * Defines that an object has been hit.
      * Implementations should consider the events that a hit to an object can trigger.

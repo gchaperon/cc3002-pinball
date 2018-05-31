@@ -1,22 +1,25 @@
 package logic.gameelements.target;
 
+import visitor.AddScoreVisitor;
 import visitor.DropTargetBonusVisitor;
 import visitor.ExtraBallBonusVisitor;
 
 public class DropTarget extends AbstractTarget {
 
-    public DropTarget() {
-        super(0.3);
+    public DropTarget(long seed) {
+        super(0.3, seed);
     }
 
     @Override
     public int hit() {
         if (this.isActive()) {
+            this.isActive = false;
             setChanged();
-            notifyObservers(new ExtraBallBonusVisitor(this.probBonus));
+            notifyObservers(new ExtraBallBonusVisitor(this.probBonus, this.seed));
             setChanged();
             notifyObservers(new DropTargetBonusVisitor());
-            this.isActive = false;
+            setChanged();
+            notifyObservers(new AddScoreVisitor(this.getScore()));
 
             return this.getScore();
         }

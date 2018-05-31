@@ -6,10 +6,6 @@ import java.util.Random;
 
 public class ExtraBallBonusVisitor extends BonusVisitor {
 
-    public ExtraBallBonusVisitor(double prob) {
-        super(prob);
-    }
-
     public ExtraBallBonusVisitor(double prob, long seed) {
         super(prob, seed);
     }

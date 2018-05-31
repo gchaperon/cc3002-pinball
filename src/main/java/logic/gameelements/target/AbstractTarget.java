@@ -5,10 +5,12 @@ import java.util.Observable;
 public abstract class AbstractTarget extends Observable implements Target {
     boolean isActive;
     double probBonus;
+    long seed;
 
-    AbstractTarget(double probBonus) {
+    AbstractTarget(double probBonus, long seed) {
         this.isActive = true;
         this.probBonus = probBonus;
+        this.seed = seed;
     }
 
     @Override

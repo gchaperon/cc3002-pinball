@@ -8,6 +8,7 @@ import logic.table.ConcreteTable;
 import logic.table.Table;
 
 import java.util.List;
+import java.util.Observer;
 
 /**
  * Facade class to expose the logic of the game to a GUI in the upcoming homework.
@@ -71,7 +72,10 @@ public class HomeworkTwoFacade {
      * @return a new table determined by the parameters
      */
     public Table newPlayableTableWithNoTargets(String name, int numberOfBumpers, double prob) {
-        return new ConcreteTable(name, numberOfBumpers, prob, 0, 0);
+        ConcreteTable table = new ConcreteTable(System.currentTimeMillis(), name,
+                numberOfBumpers, prob, 0, 0);
+        table.addObserver(this.game);
+        return table;
     }
 
     /**
@@ -86,7 +90,10 @@ public class HomeworkTwoFacade {
      */
     public Table newFullPlayableTable(String name, int numberOfBumpers, double prob,
                                       int numberOfSpotTargets, int numberOfDropTargets) {
-        return new ConcreteTable(name, numberOfBumpers, prob, numberOfSpotTargets, numberOfDropTargets);
+        ConcreteTable table = new ConcreteTable(System.currentTimeMillis(), name, numberOfBumpers,
+                prob, numberOfSpotTargets, numberOfDropTargets);
+        table.addObserver(this.game);
+        return table;
     }
 
     /**

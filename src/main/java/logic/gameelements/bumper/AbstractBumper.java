@@ -1,5 +1,6 @@
 package logic.gameelements.bumper;
 
+import visitor.AddScoreVisitor;
 import visitor.ExtraBallBonusVisitor;
 
 import java.util.Observable;
@@ -10,14 +11,16 @@ public abstract class AbstractBumper extends Observable implements Bumper {
     private int currentHits;
     private boolean isUpgraded;
     private double probBonus;
+    private long seed;
 
-
-    AbstractBumper(int hitsToUpgrade) {
+    AbstractBumper(int hitsToUpgrade, long seed) {
         this.hitsToUpgrade = hitsToUpgrade;
         this.currentHits = 0;
         this.isUpgraded = false;
         this.probBonus = 0.1;
+        this.seed = seed;
     }
+
 
     @Override
     public int remainingHitsToUpgrade() {
@@ -44,12 +47,13 @@ public abstract class AbstractBumper extends Observable implements Bumper {
     public int hit() {
         // send upgrade message
         if (!this.isUpgraded() && this.remainingHitsToUpgrade()==1) {
-            setChanged();
-            notifyObservers(new ExtraBallBonusVisitor(this.probBonus));
-
             this.currentHits++;
             this.upgrade();
+            setChanged();
+            notifyObservers(new ExtraBallBonusVisitor(this.probBonus, this.seed));
         }
+        setChanged();
+        notifyObservers(new AddScoreVisitor(this.getScore()));
         return this.getScore();
     }
 

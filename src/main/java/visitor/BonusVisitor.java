@@ -1,21 +1,15 @@
 package visitor;
 
-import controller.Game;
-
-public class BonusVisitor {
+public abstract class BonusVisitor extends Visitor {
     double probBonus;
     long seed;
 
-    BonusVisitor(double prob) {
-        this(prob, System.currentTimeMillis());
+    BonusVisitor() {
+        this(1.0, System.currentTimeMillis());
     }
 
     BonusVisitor(double prob, long seed) {
         this.probBonus = prob;
         this.seed = seed;
-    }
-
-    public void visitGame(Game game) {
-
     }
 }

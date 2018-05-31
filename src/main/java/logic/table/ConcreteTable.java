@@ -7,50 +7,56 @@ import logic.gameelements.target.DropTarget;
 import logic.gameelements.target.SpotTarget;
 import logic.gameelements.target.Target;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
-public class ConcreteTable implements Table {
+public class ConcreteTable extends Observable implements Table, Observer {
     private int currentlyDroppedDropTargets;
-    private int numberOfDropTarget;
+    private final int numberOfDropTarget;
     private String name;
     private List<Bumper> bumpers; //primero van los popBumpers
     private List<Target> targets; //primero van los dropTargets
-    private long seed;
-
-    public ConcreteTable(String name, int numberOfBumbers, double prob,
-                         int numberOfSpotTargets, int numberOfDropTargets) {
-        this(System.currentTimeMillis(), name, numberOfBumbers, prob, numberOfSpotTargets, numberOfDropTargets);
-    }
 
     public ConcreteTable(long seed, String name, int numberOfBumpers, double prob,
                          int numberOfSpotTargets, int numberOfDropTargets) {
         this.name = name;
-        this.seed = seed;
+        this.numberOfDropTarget = numberOfDropTargets;
 
         bumpers = new ArrayList<>(numberOfBumpers);
         List<KickerBumper> kickerBumpers = new ArrayList<>();
         List<PopBumper> popBumpers = new ArrayList<>();
         Random rnd = new Random(seed);
+        PopBumper popBumper;
+        KickerBumper kickerBumper;
         for (int i = 0; i < numberOfBumpers; i++) {
-            if (rnd.nextFloat() < prob)
-                popBumpers.add(new PopBumper());
-            else
-                kickerBumpers.add(new KickerBumper());
+            if (rnd.nextFloat() < prob) {
+                popBumper = new PopBumper(seed);
+                popBumper.addObserver(this);
+                popBumpers.add(popBumper);
+            }
+            else {
+                kickerBumper = new KickerBumper(seed);
+                kickerBumper.addObserver(this);
+                kickerBumpers.add(kickerBumper);
+            }
         }
         bumpers.addAll(popBumpers);
         bumpers.addAll(kickerBumpers);
 
-        targets = new ArrayList<>(numberOfSpotTargets + numberOfDropTargets);
-        this.numberOfDropTarget = numberOfDropTargets;
-        for (int i = 0; i < numberOfDropTargets; i++)
-            targets.add(i, new DropTarget());
-        for (int i = numberOfSpotTargets; i < targets.size(); i++)
-            targets.add(i, new SpotTarget());
-
-
+        targets = new ArrayList<>();
+        SpotTarget spotTarget;
+        DropTarget dropTarget;
+        for (int i = 0; i < numberOfDropTargets; i++) {
+            dropTarget = new DropTarget(seed);
+            dropTarget.addObserver(this);
+            targets.add(dropTarget);
+        }
+        for (int i = 0; i < numberOfSpotTargets; i++) {
+            spotTarget = new SpotTarget(seed);
+            spotTarget.addObserver(this);
+            targets.add(spotTarget);
+        }
     }
+
 
     @Override
     public String getTableName() {
@@ -69,7 +75,7 @@ public class ConcreteTable implements Table {
 
     @Override
     public void setCurrentlyDroppedDropTargets(int num) {
-        this.currentlyDroppedDropTargets = num;
+
     }
 
     @Override
@@ -86,6 +92,7 @@ public class ConcreteTable implements Table {
     public void resetDropTargets() {
         for (Target dropTarget : this.targets.subList(0, numberOfDropTarget))
             dropTarget.reset();
+        this.currentlyDroppedDropTargets = 0;
     }
 
     @Override
@@ -97,5 +104,11 @@ public class ConcreteTable implements Table {
     @Override
     public boolean isPlayableTable() {
         return true;
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        setChanged();
+        notifyObservers(arg);
     }
 }
