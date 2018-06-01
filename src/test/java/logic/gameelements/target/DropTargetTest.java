@@ -1,6 +1,7 @@
 package logic.gameelements.target;
 
 import controller.Game;
+import logic.gameelements.bumper.Bumper;
 import logic.table.ConcreteTable;
 import org.junit.Before;
 import org.junit.Test;
@@ -48,15 +49,30 @@ public class DropTargetTest {
              game.getCurrentTable().getTargets()) {
             assertTrue(target.isActive());
         }
+        for (Bumper bumper :
+                game.getCurrentTable().getBumpers()) {
+            assertFalse(bumper.isUpgraded());
+        }
+
         for (Target target:
                 game.getCurrentTable().getTargets()) {
             target.hit();
         }
+
         assertEquals(1, game.getDropTargetBonus().timesTriggered());
         assertEquals(1000300, game.getCurrentScore());
+        for (Bumper bumper :
+                game.getCurrentTable().getBumpers()) {
+            assertTrue(bumper.isUpgraded());
+        }
+
         dropTarget.reset();
         dropTarget.hit();
         assertEquals(2, game.getDropTargetBonus().timesTriggered());
+        for (Bumper bumper :
+                game.getCurrentTable().getBumpers()) {
+            assertTrue(bumper.isUpgraded());
+        }
     }
 
     @Test

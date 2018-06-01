@@ -6,6 +6,7 @@ import logic.gameelements.bumper.PopBumper;
 import logic.gameelements.target.DropTarget;
 import logic.gameelements.target.SpotTarget;
 import logic.gameelements.target.Target;
+import visitor.Visitor;
 
 import java.util.*;
 
@@ -108,7 +109,12 @@ public class ConcreteTable extends Observable implements Table, Observer {
 
     @Override
     public void update(Observable o, Object arg) {
+        this.accept((Visitor) arg);
         setChanged();
         notifyObservers(arg);
+    }
+
+    private void accept(Visitor visitor) {
+        visitor.visitTable(this);
     }
 }

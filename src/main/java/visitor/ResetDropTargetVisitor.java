@@ -1,12 +1,10 @@
 package visitor;
 
-import controller.Game;
-import logic.table.Table;
+import logic.table.ConcreteTable;
 
 public class ResetDropTargetVisitor extends Visitor {
     @Override
-    public void visitGame(Game game) {
-        Table table = game.getCurrentTable();
+    public void visitTable(ConcreteTable table) {
         int current = table.getCurrentlyDroppedDropTargets();
         table.setCurrentlyDroppedDropTargets(current - 1);
     }

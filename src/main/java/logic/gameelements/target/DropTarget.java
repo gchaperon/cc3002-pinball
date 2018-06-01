@@ -36,4 +36,5 @@ public class DropTarget extends AbstractTarget {
         setChanged();
         notifyObservers(new ResetDropTargetVisitor());
     }
+
 }
