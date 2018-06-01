@@ -7,7 +7,9 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class NullTableTest {
-    private Table table;
+
+    private NullTable table;
+
     @Before
     public void setUp() throws Exception {
         table = new NullTable();
@@ -24,6 +26,12 @@ public class NullTableTest {
     }
 
     @Test
+    public void setCurrentlyDroppedDropTargets() {
+        table.setCurrentlyDroppedDropTargets(123);
+        assertTrue(table.getTargets().isEmpty());
+    }
+
+    @Test
     public void getCurrentlyDroppedDropTargets() {
         assertEquals(0, table.getCurrentlyDroppedDropTargets());
     }
@@ -37,6 +45,19 @@ public class NullTableTest {
     public void getTargets() {
         assertTrue(table.getTargets().isEmpty());
     }
+
+    @Test
+    public void resetDropTargets() {
+        table.resetDropTargets();
+        assertTrue(table.getTargets().isEmpty());
+    }
+
+    @Test
+    public void upgradeAllBumpers() {
+        table.upgradeAllBumpers();
+        assertTrue(table.getBumpers().isEmpty());
+    }
+
 
     @Test
     public void isPlayableTable() {

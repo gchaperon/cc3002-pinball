@@ -10,7 +10,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ConcreteTableTest {
-    private Table table;
+    private ConcreteTable table;
 
     @Before
     public void setUp() throws Exception {

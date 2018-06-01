@@ -6,18 +6,15 @@ import logic.bonus.ExtraBallBonus;
 import logic.bonus.JackPotBonus;
 import logic.table.NullTable;
 import logic.table.Table;
-import visitor.BonusVisitor;
 import visitor.Visitor;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
 /**
  * Game logic controller class.
  *
- * @author Juan-Pablo Silva
+ * @author Gabriel Chaperon
  */
 public class Game implements Observer {
     private int numberOfBalls;
