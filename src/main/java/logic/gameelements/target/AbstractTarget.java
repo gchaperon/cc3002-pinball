@@ -3,7 +3,7 @@ package logic.gameelements.target;
 import java.util.Observable;
 
 public abstract class AbstractTarget extends Observable implements Target {
-    boolean isActive;
+    protected boolean isActive;
 
     AbstractTarget() {
         this.isActive = true;
