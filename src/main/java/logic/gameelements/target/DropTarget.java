@@ -1,35 +1,39 @@
 package logic.gameelements.target;
 
-import visitor.AddScoreVisitor;
-import visitor.DropTargetBonusVisitor;
-import visitor.ExtraBallBonusVisitor;
+import visitor.*;
 
 public class DropTarget extends AbstractTarget {
 
+    private Visitor extraBallBonusVisitor;
+
     public DropTarget(long seed) {
-        super(0.3, seed);
+        super();
+        extraBallBonusVisitor = new ExtraBallBonusVisitor(0.3, seed);
     }
 
     @Override
     public int hit() {
         if (this.isActive()) {
-            this.isActive = false;
-            setChanged();
-            notifyObservers(new ExtraBallBonusVisitor(this.probBonus, this.seed));
-            setChanged();
-            notifyObservers(new DropTargetBonusVisitor());
             setChanged();
             notifyObservers(new AddScoreVisitor(this.getScore()));
-
-            return this.getScore();
+            this.isActive = false;
+            setChanged();
+            notifyObservers(extraBallBonusVisitor);
+            setChanged();
+            notifyObservers(new DropTargetBonusVisitor());
         }
-        else {
-            return 0;
-        }
+        return this.getScore();
     }
 
     @Override
     public int getScore() {
-        return 100;
+        return (isActive()) ? 100 : 0;
+    }
+
+    @Override
+    public void reset() {
+        super.reset();
+        setChanged();
+        notifyObservers(new ResetDropTargetVisitor());
     }
 }

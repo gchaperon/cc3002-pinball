@@ -66,7 +66,7 @@ public class AbstractBumperTest {
     }
 
     @Test
-    public void hitTriggerBonus() {
+    public void hitTriggerExtraBallBonus() {
         bumper.hit();
         bumper.hit();
         bumper.hit();
@@ -78,6 +78,7 @@ public class AbstractBumperTest {
         bumper.hit();
         bumper.hit();
         bumper.hit();
+        assertEquals(1, game.getExtraBallBonus().timesTriggered());
         assertEquals(6, game.getNumberOfBalls());
     }
 }

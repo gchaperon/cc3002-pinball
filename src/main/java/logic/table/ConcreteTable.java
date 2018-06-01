@@ -51,7 +51,7 @@ public class ConcreteTable extends Observable implements Table, Observer {
             targets.add(dropTarget);
         }
         for (int i = 0; i < numberOfSpotTargets; i++) {
-            spotTarget = new SpotTarget(seed);
+            spotTarget = new SpotTarget();
             spotTarget.addObserver(this);
             targets.add(spotTarget);
         }
@@ -75,7 +75,7 @@ public class ConcreteTable extends Observable implements Table, Observer {
 
     @Override
     public void setCurrentlyDroppedDropTargets(int num) {
-
+        this.currentlyDroppedDropTargets = num;
     }
 
     @Override
