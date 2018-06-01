@@ -7,6 +7,7 @@ import logic.bonus.JackPotBonus;
 import logic.table.NullTable;
 import logic.table.Table;
 import visitor.BonusVisitor;
+import visitor.Visitor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,10 +65,10 @@ public class Game implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        this.accept((BonusVisitor) arg);
+        this.accept((Visitor) arg);
     }
 
-    private void accept(BonusVisitor visitor) {
+    private void accept(Visitor visitor) {
         visitor.visitGame(this);
     }
 

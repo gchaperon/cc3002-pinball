@@ -2,8 +2,6 @@ package visitor;
 
 import controller.Game;
 
-import java.util.Random;
-
 public class ExtraBallBonusVisitor extends BonusVisitor {
 
     public ExtraBallBonusVisitor(double prob, long seed) {
@@ -12,8 +10,8 @@ public class ExtraBallBonusVisitor extends BonusVisitor {
 
     @Override
     public void visitGame(Game game) {
-        Random rnd = new Random(this.seed);
-        if (rnd.nextFloat() < this.probBonus) {
+        float next = rnd.nextFloat();
+        if (next < this.probBonus) {
             game.getExtraBallBonus().trigger(game);
         }
     }
