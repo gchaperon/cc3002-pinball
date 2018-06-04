@@ -17,7 +17,7 @@ public class DropTargetTest {
     @Before
     public void setUp() throws Exception {
         game = new Game();
-        tab1 = new ConcreteTable(8008,"tab1", 0,
+        tab1 = new ConcreteTable(8008,"tab1", 10,
                 0, 0, 3);
         tab1.addObserver(game);
         game.setTable(tab1);
@@ -61,18 +61,27 @@ public class DropTargetTest {
 
         assertEquals(1, game.getDropTargetBonus().timesTriggered());
         assertEquals(1000300, game.getCurrentScore());
+        for (Target target:
+                game.getCurrentTable().getTargets()) {
+            assertFalse(target.isActive());
+        }
         for (Bumper bumper :
                 game.getCurrentTable().getBumpers()) {
             assertTrue(bumper.isUpgraded());
         }
 
-        dropTarget.reset();
-        dropTarget.hit();
-        assertEquals(2, game.getDropTargetBonus().timesTriggered());
-        for (Bumper bumper :
-                game.getCurrentTable().getBumpers()) {
-            assertTrue(bumper.isUpgraded());
+        for (Target target:
+                game.getCurrentTable().getTargets()) {
+            target.reset();
         }
+
+        for (Target target:
+                game.getCurrentTable().getTargets()) {
+            target.hit();
+        }
+
+        assertEquals(2, game.getDropTargetBonus().timesTriggered());
+        assertEquals(2000600, game.getCurrentScore());
     }
 
     @Test

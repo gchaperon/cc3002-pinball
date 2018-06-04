@@ -74,7 +74,7 @@ public class Game implements Observer {
     }
 
     public int dropBall() {
-        return --this.numberOfBalls;
+        return (this.numberOfBalls > 0) ? --this.numberOfBalls : 0;
     }
 
     public int extraBall() {

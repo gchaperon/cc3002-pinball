@@ -9,8 +9,9 @@ public class DropTargetBonusVisitor extends BonusVisitor {
     @Override
     public void visitGame(Game game) {
         Table currentTable = game.getCurrentTable();
-        if (currentTable.getNumberOfDropTargets() == currentTable.getCurrentlyDroppedDropTargets())
+        if (currentTable.getNumberOfDropTargets() == currentTable.getCurrentlyDroppedDropTargets()) {
             game.getDropTargetBonus().trigger(game);
+        }
     }
 
     @Override

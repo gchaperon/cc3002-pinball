@@ -17,7 +17,7 @@ public class NullTableTest {
 
     @Test
     public void getTableName() {
-        assertNull(table.getTableName());
+        assertEquals("", table.getTableName());
     }
 
     @Test

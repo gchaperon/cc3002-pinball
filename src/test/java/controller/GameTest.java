@@ -57,8 +57,10 @@ public class GameTest {
 
     @Test
     public void dropBall() {
+        assertEquals(2, game.dropBall());
         game.dropBall();
-        assertEquals(2, game.getNumberOfBalls());
+        assertEquals(0, game.dropBall());
+        assertEquals(0, game.dropBall());
     }
 
     @Test
