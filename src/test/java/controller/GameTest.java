@@ -3,7 +3,6 @@ package controller;
 import logic.bonus.DropTargetBonus;
 import logic.bonus.ExtraBallBonus;
 import logic.bonus.JackPotBonus;
-import logic.gameelements.target.DropTarget;
 import logic.table.ConcreteTable;
 import logic.table.Table;
 import org.junit.Before;
