@@ -6,6 +6,15 @@ import visitor.Visitor;
 
 import java.util.Observable;
 
+/**
+ * Abstract class that implements most of the {@link logic.gameelements.bumper.Bumper}
+ * interface. The specific behaviour of the getScore method is implemented in
+ * each concrete bumper.
+ * This class extends the {@link Observable} class and is design to notify the
+ * table it will be contained in when it's hit.
+ *
+ * @author  Gabriel Chaperon
+ */
 public abstract class AbstractBumper extends Observable implements Bumper {
 
     private final int hitsToUpgrade;
@@ -13,6 +22,13 @@ public abstract class AbstractBumper extends Observable implements Bumper {
     private boolean isUpgraded;
     private Visitor extraBallBonusVisitor;
 
+    /**
+     * Creates a new bumper.
+     *
+     * @param hitsToUpgrade the hits needed to upgrade the bumper.
+     * @param seed  the seed used to generate random numbers in the instance of
+     *              {@link visitor.ExtraBallBonusVisitor}.
+     */
     AbstractBumper(int hitsToUpgrade, long seed) {
         this.hitsToUpgrade = hitsToUpgrade;
         this.currentHits = 0;
@@ -42,6 +58,16 @@ public abstract class AbstractBumper extends Observable implements Bumper {
         isUpgraded = false;
     }
 
+    /**
+     * Adds one to the number of times this bumper has been hit.
+     * Notifies its observers when it's been hit, so the correct score, depending
+     * on whether it's upgraded or not, can be added to the score of the player.
+     * When the bumper is upgraded because of a hit, it notifies its
+     * observers so the {@link logic.bonus.ExtraBallBonus} instance of the game
+     * can be triggered.
+     *
+     * @return  the score the player obtained hitting the object.
+     */
     @Override
     public int hit() {
         // send upgrade message
