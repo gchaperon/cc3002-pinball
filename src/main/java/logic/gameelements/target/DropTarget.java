@@ -52,9 +52,11 @@ public class DropTarget extends AbstractTarget {
      */
     @Override
     public void reset() {
-        super.reset();
-        setChanged();
-        notifyObservers(new ResetDropTargetVisitor());
+        if (!this.isActive) {
+            this.isActive = true;
+            setChanged();
+            notifyObservers(new ResetDropTargetVisitor());
+        }
     }
 
 }

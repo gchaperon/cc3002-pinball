@@ -63,8 +63,9 @@ public class DropTargetTest {
         assertEquals(1000300, game.getCurrentScore());
         for (Target target:
                 game.getCurrentTable().getTargets()) {
-            assertFalse(target.isActive());
+            assertTrue(target.isActive());
         }
+        assertEquals(0, game.getCurrentTable().getCurrentlyDroppedDropTargets());
         for (Bumper bumper :
                 game.getCurrentTable().getBumpers()) {
             assertTrue(bumper.isUpgraded());
@@ -89,5 +90,24 @@ public class DropTargetTest {
         assertEquals(100, dropTarget.getScore());
         dropTarget.hit();
         assertEquals(0, dropTarget.getScore());
+    }
+
+    @Test
+    public void reset() {
+        game.getCurrentTable().getTargets().get(0).hit();
+        game.getCurrentTable().getTargets().get(2).hit();
+        assertEquals(2, game.getCurrentTable().getCurrentlyDroppedDropTargets());
+
+        game.getCurrentTable().getTargets().get(0).reset();
+        assertEquals(1, game.getCurrentTable().getCurrentlyDroppedDropTargets());
+
+        game.getCurrentTable().getTargets().get(0).reset();
+        assertEquals(1, game.getCurrentTable().getCurrentlyDroppedDropTargets());
+
+        game.getCurrentTable().getTargets().get(2).reset();
+        assertEquals(0, game.getCurrentTable().getCurrentlyDroppedDropTargets());
+
+        game.getCurrentTable().getTargets().get(2).reset();
+        assertEquals(0, game.getCurrentTable().getCurrentlyDroppedDropTargets());
     }
 }

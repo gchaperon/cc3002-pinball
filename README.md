@@ -82,5 +82,6 @@ See also the list of [contributors](https://github.com/GabrielChaperon/cc3002-pi
 
 * My mom and dad, who are always supportive.
 * My girlfriend, who is supportive most of the time.
+* Alexander Bergel, for the luls and for teaching me how to be an OUTSTANDING ENGINEER.
 * Inspiration.
 * Alcohol.

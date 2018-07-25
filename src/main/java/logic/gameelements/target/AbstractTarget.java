@@ -30,7 +30,8 @@ public abstract class AbstractTarget extends Observable implements Target {
 
     @Override
     public void reset() {
-        this.isActive = true;
+        if (!this.isActive)
+            this.isActive = true;
     }
 
     @Override

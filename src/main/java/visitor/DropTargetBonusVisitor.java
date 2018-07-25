@@ -11,7 +11,7 @@ public class DropTargetBonusVisitor extends BonusVisitor {
         Table currentTable = game.getCurrentTable();
         if (currentTable.getNumberOfDropTargets() == currentTable.getCurrentlyDroppedDropTargets()) {
             game.getDropTargetBonus().trigger(game);
-
+            currentTable.resetDropTargets();
         }
     }
 
