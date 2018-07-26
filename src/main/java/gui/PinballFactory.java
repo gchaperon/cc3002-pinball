@@ -16,13 +16,13 @@ public class PinballFactory implements EntityFactory {
         PhysicsComponent physics = new PhysicsComponent();
         physics.setBodyType(BodyType.DYNAMIC);
         physics.setFixtureDef(new FixtureDef().restitution(1f).density(1f).friction(0f));
-        physics.setOnPhysicsInitialized(()-> physics.setBodyLinearVelocity(new Vec2(1,-1)));
+        //physics.setOnPhysicsInitialized(()-> physics.setBodyLinearVelocity(new Vec2(1,-1)));
 
         return Entities.builder()
                 .at(x, y)
                 .type(PinballTypes.BALL)
                 .viewFromNodeWithBBox(new Circle(10, Color.BLACK))
-                .with(physics, new CollidableComponent(true))
+                .with(physics, new CollidableComponent(true), new BallComponent())
                 .build();
     }
 }

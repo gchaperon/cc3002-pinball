@@ -1,5 +1,5 @@
 package gui;
 
 public enum PinballTypes {
-    BALL
+    BALL, WALL
 }

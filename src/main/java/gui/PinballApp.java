@@ -5,9 +5,14 @@ import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.entity.components.CollidableComponent;
 import com.almasb.fxgl.entity.components.IrremovableComponent;
+import com.almasb.fxgl.input.Input;
+import com.almasb.fxgl.input.UserAction;
 import com.almasb.fxgl.settings.GameSettings;
+import javafx.scene.input.KeyCode;
 
 import static gui.PinballFactory.newBall;
+import static gui.PinballTypes.BALL;
+import static gui.PinballTypes.WALL;
 
 public class PinballApp extends GameApplication {
     @Override
@@ -23,9 +28,21 @@ public class PinballApp extends GameApplication {
         Entity screenBounds = Entities.makeScreenBounds(50);
         screenBounds.addComponent(new IrremovableComponent());
         screenBounds.addComponent(new CollidableComponent(true));
+        screenBounds.setType(WALL);
         getGameWorld().addEntity(screenBounds);
 
         getGameWorld().addEntity(newBall(200, 300));
+    }
+
+    @Override
+    protected void initInput() {
+        Input input = getInput();
+        input.addAction(new UserAction("Release Ball  ") {
+            @Override
+            protected void onActionBegin() {
+                getGameWorld().getEntitiesByType(BALL).get(0).getComponent(BallComponent.class).release();
+            }
+        }, KeyCode.SPACE);
     }
 
     @Override
