@@ -7,6 +7,6 @@ import com.almasb.fxgl.physics.PhysicsComponent;
 public class BallComponent extends Component {
     PhysicsComponent physics;
     public void release() {
-        physics.setBodyLinearVelocity(new Vec2(1, -1));
+        physics.setBodyLinearVelocity(new Vec2(2, 2));
     }
 }
