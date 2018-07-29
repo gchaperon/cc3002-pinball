@@ -17,21 +17,14 @@ public class PinballFactory implements EntityFactory {
         int y = 300;
         PhysicsComponent physics = new PhysicsComponent();
         physics.setBodyType(BodyType.DYNAMIC);
-        physics.setFixtureDef(new FixtureDef().restitution(0.9f).density(1f).friction(0.1f));
-        physics.setOnPhysicsInitialized(()-> physics.setBodyLinearVelocity(new Vec2(3,3)));
+        physics.setFixtureDef(new FixtureDef().restitution(0.9f).density(1f).friction(0f));
+        physics.setOnPhysicsInitialized(()-> physics.setBodyLinearVelocity(new Vec2(10,10)));
 
         return Entities.builder()
                 .at(x, y)
                 .type(PinballTypes.BALL)
-                .viewFromNodeWithBBox(new Circle(20, Color.BLACK))
+                .viewFromNodeWithBBox(new Circle(7, Color.BLACK))
                 .with(physics, new CollidableComponent(true))
                 .build();
-    }
-
-    public static Entity newWalls() {
-        Entity walls = Entities.makeScreenBounds(100);
-        walls.setType(PinballTypes.WALL);
-        walls.addComponent(new CollidableComponent(true));
-        return walls;
     }
 }

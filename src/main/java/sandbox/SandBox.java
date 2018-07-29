@@ -18,7 +18,7 @@ public class SandBox extends GameApplication {
     PhysicsComponent physics;
     @Override
     protected void initSettings(GameSettings settings) {
-        settings.setWidth(600);
+        settings.setWidth(400);
         settings.setHeight(600);
         settings.setProfilingEnabled(true);
         settings.setApplicationMode(ApplicationMode.DEBUG);
