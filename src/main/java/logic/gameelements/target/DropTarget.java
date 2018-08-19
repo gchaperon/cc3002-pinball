@@ -29,16 +29,17 @@ public class DropTarget extends AbstractTarget {
      */
     @Override
     public int hit() {
+        int score = getScore();
         if (this.isActive()) {
             setChanged();
-            notifyObservers(new AddScoreVisitor(this.getScore()));
+            notifyObservers(new AddScoreVisitor(score));
             this.isActive = false;
             setChanged();
             notifyObservers(extraBallBonusVisitor);
             setChanged();
             notifyObservers(new DropTargetBonusVisitor());
         }
-        return this.getScore();
+        return score;
     }
 
     @Override

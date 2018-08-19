@@ -26,17 +26,19 @@ public class SandBox extends GameApplication {
 
     @Override
     protected void initGame() {
+        getGameWorld().addEntity(Entities.makeScreenBounds(10));
         physics = new PhysicsComponent();
-        physics.setBodyType(BodyType.KINEMATIC);
+//        physics.setBodyType(BodyType.KINEMATIC);
         flipper = Entities.builder()
                 .at(200, 200)
-                .type(SandBoxTypes.FLIPPER)
-                .viewFromNodeWithBBox(new Rectangle(200, 20, Color.BLACK))
-                .rotate(20)
+//                .type(SandBoxTypes.FLIPPER)
+                .viewFromNodeWithBBox(new Rectangle(250, 20, Color.BLACK))
+//                .rotate(20)
                 .with(physics)
                 .build();
 
         getGameWorld().addEntity(flipper);
+
     }
 
     @Override
@@ -48,5 +50,10 @@ public class SandBox extends GameApplication {
                 physics.setAngularVelocity(1f);
             }
         }, KeyCode.LEFT);
+    }
+
+    @Override
+    protected void onUpdate(double tpf) {
+        System.out.println(flipper.angleProperty().getValue());
     }
 }

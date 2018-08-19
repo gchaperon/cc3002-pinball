@@ -33,7 +33,7 @@ public class Game implements Observer {
      * default.
      */
     public Game() {
-        this(5);
+        this(3);
     }
 
     /**

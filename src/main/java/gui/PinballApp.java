@@ -7,18 +7,20 @@ import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.entity.components.CollidableComponent;
 import com.almasb.fxgl.input.Input;
 import com.almasb.fxgl.input.UserAction;
-import com.almasb.fxgl.physics.BoundingShape;
 import com.almasb.fxgl.physics.CollisionHandler;
 import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.settings.GameSettings;
-import javafx.geometry.Point2D;
+import javafx.beans.property.DoubleProperty;
 import javafx.scene.input.KeyCode;
-import javafx.scene.shape.Polygon;
 
 public class PinballApp extends GameApplication {
     private int width = 400;
     private int height = 600;
+    PinballFactory factory = new PinballFactory();
+    Entity leftFlipper;
+    Entity rightFlipper;
+    double flipperSpeed = 10;
 
     @Override
     protected void initSettings(GameSettings settings) {
@@ -35,8 +37,11 @@ public class PinballApp extends GameApplication {
     protected void initGame() {
         initBackGround();
 
-        getGameWorld().addEntityFactory(new PinballFactory());
-
+        leftFlipper = factory.leftFlipper();
+        rightFlipper = factory.rightFlipper();
+        getGameWorld().addEntityFactory(factory);
+        getGameWorld().addEntity(leftFlipper);
+        getGameWorld().addEntity(rightFlipper);
     }
 
     private void initBackGround() {
@@ -45,21 +50,13 @@ public class PinballApp extends GameApplication {
         walls.addComponent(new CollidableComponent(true));
         getGameWorld().addEntity(walls);
 
-        // adds bottom part of table, shared with all tables
         Entities.builder()
-                .at(0, 400)
-                .viewFromNode(new Polygon(0, 0, 150, 50, 150, 100, 0, 100))
-                .bbox(new HitBox("LEFT", new Point2D(0, 0),
-                        BoundingShape.polygon(0, 0, 150, 50, 150, 100, 0, 100)))
-                .with(new CollidableComponent(true), new PhysicsComponent())
-                .buildAndAttach(getGameWorld());
-        Entities.builder()
-                .at(400, 400)
-                .viewFromNode(new Polygon(0, 0, -150, 50, -150, 100, 0, 100))
-                .bbox(new HitBox("RIGHT", new Point2D(0, 0),
-                        BoundingShape.polygon(250, 450, 400, 400, 400, 500, 250, 500)))
-                .with(new CollidableComponent(true), new PhysicsComponent())
-                .buildAndAttach(getGameWorld());
+                .viewFromTexture("piñi.jpg")
+                .buildAndAttach();
+
+//         adds bottom part of table, shared with all tables
+//        getGameWorld().addEntity(factory.bottomLeft());
+//        getGameWorld().addEntity(factory.bottomRight());
     }
 
     @Override
@@ -74,6 +71,45 @@ public class PinballApp extends GameApplication {
                 }
             }
         }, KeyCode.SPACE);
+
+        input.addAction(new UserAction("LeftFlipper movement") {
+            @Override
+            protected void onAction() {
+                System.out.println(leftFlipper.angleProperty().getValue());
+                if (leftFlipper.angleProperty().getValue() > -25+flipperSpeed)
+                    leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(-flipperSpeed);
+                else
+                    leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
+            }
+        }, KeyCode.LEFT);
+
+        input.addAction(new UserAction("RightFlipper movement") {
+            @Override
+            protected void onAction() {
+                System.out.println(rightFlipper.angleProperty().getValue());
+                if (rightFlipper.angleProperty().getValue() < 25-flipperSpeed)
+                    rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(flipperSpeed);
+                else
+                    rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
+            }
+        }, KeyCode.RIGHT);
+    }
+
+    @Override
+    protected void onUpdate(double tpf) {
+        // control de leftFlipper
+        if (!getInput().isHeld(KeyCode.LEFT) && leftFlipper.angleProperty().getValue() < 25-flipperSpeed)
+            leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(flipperSpeed);
+        if (leftFlipper.angleProperty().getValue() > 25-flipperSpeed)
+            leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
+        //control de rightFlipper
+        if (!getInput().isHeld(KeyCode.RIGHT) && rightFlipper.angleProperty().getValue() > -25+flipperSpeed)
+            rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(-flipperSpeed);
+        if (rightFlipper.angleProperty().getValue() < -25+flipperSpeed)
+            rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
+
+
+
     }
 
     @Override

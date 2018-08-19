@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/gui/FlipperControl.java" line="27" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f62f7f87-0675-4948-b9c3-1614d0912c51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-01.01.23.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-01.01.46.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-01.03.02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-14.26.44.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-14.27.20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-14.27.27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-14.27.54.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-14.30.26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-14.38.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-Jul-2018-15.09.45.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinball.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pinball.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.49.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.49.09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.49.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.49.18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.50.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.51.00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.53.15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.54.47.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.55.42.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-29-jul-2018-05.56.29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/BallComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BallComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/fxgl.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/system/fxgl.bundle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +33,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pinball$logic_table_in_pinball.ic" NAME="logic.table in pinball Coverage Results" MODIFIED="1527833618835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/pinball$ConcreteTableTest.ic" NAME="ConcreteTableTest Coverage Results" MODIFIED="1527833352903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>logic.table.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pinball$logic_gameelements_in_pinball.ic" NAME="logic.gameelements in pinball Coverage Results" MODIFIED="1527833131038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>logic.gameelements.*</FILTER>
+    <SUITE FILE_PATH="coverage/pinball$logic_table_in_pinball.ic" NAME="logic.table in pinball Coverage Results" MODIFIED="1527833618835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>logic.table.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/pinball$NullTableTest.ic" NAME="NullTableTest Coverage Results" MODIFIED="1527833346602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>logic.table.*</FILTER>
@@ -38,12 +45,12 @@
     <SUITE FILE_PATH="coverage/pinball$logic_bonus_in_pinball.ic" NAME="logic.bonus in pinball Coverage Results" MODIFIED="1527833115033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>logic.bonus.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/pinball$AbstractBumperTest.ic" NAME="AbstractBumperTest Coverage Results" MODIFIED="1527833273715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>logic.gameelements.bumper.*</FILTER>
+    <SUITE FILE_PATH="coverage/pinball$logic_gameelements_in_pinball.ic" NAME="logic.gameelements in pinball Coverage Results" MODIFIED="1527833131038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>logic.gameelements.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/pinball$All_in_pinball.ic" NAME="All in pinball Coverage Results" MODIFIED="1528081728025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/pinball$ConcreteTableTest.ic" NAME="ConcreteTableTest Coverage Results" MODIFIED="1527833352903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>logic.table.*</FILTER>
+    <SUITE FILE_PATH="coverage/pinball$AbstractBumperTest.ic" NAME="AbstractBumperTest Coverage Results" MODIFIED="1527833273715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>logic.gameelements.bumper.*</FILTER>
     </SUITE>
   </component>
   <component name="CoverageOptionsProvider">
@@ -82,14 +89,57 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1706678245">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="40" />
+          <entry key="kt" value="2" />
+          <entry key="png" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="40" />
+          <entry key="Kotlin" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3514" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3514" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+            <state relative-caret-position="413">
+              <caret line="100" column="94" selection-start-line="100" selection-start-column="94" selection-end-line="100" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,45 +148,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3.jar!/com/almasb/fxgl/entity/Entities.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+            <state relative-caret-position="-493">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -147,8 +165,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,8 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/BumperImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/visitor/JackPotBonusVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java" />
@@ -181,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java" />
         <option value="$PROJECT_DIR$/src/test/java/logic/table/NullTableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/controller/GameTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/bonus/ExtraBallBonus.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/bonus/JackPotBonus.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/Hittable.java" />
@@ -202,18 +217,21 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/logic/table/ConcreteTableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/AbstractTarget.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" />
         <option value="$PROJECT_DIR$/src/main/java/visitor/DropTargetBonusVisitor.java" />
         <option value="$PROJECT_DIR$/src/test/java/logic/gameelements/target/DropTargetTest.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/BallComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/sandbox/SandboxTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/sandbox/Sandbox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/PinballTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/FlipperControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sandbox/GenericControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/BallComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" />
       </list>
     </option>
   </component>
@@ -223,7 +241,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="58" />
     <option name="y" value="26" />
     <option name="width" value="1211" />
@@ -237,7 +255,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pinball" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pinball" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +291,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
@@ -297,38 +334,39 @@
             <path>
               <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
               <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="textures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pinball" type="1abcf292:AndroidViewProjectNode" />
-              <item name="pinball" type="e9137016:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="game&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/controller/Game.java&#10;Jack&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/visitor/JackPotBonusVisitor.java&#10;ga&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/controller/Game.java&#10;Null&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/logic/table/NullTable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532858154501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534657919657" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FXGL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -363,10 +401,9 @@
   </component>
   <component name="RunManager" selected="Application.PinballApp">
     <configuration name="PinballApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <output_file path="$USER_HOME$" is_save="true" />
       <option name="MAIN_CLASS_NAME" value="gui.PinballApp" />
       <module name="pinball" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gui.*" />
@@ -398,43 +435,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in pinball" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigTestT3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pinball" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="BigTestT3" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropTargetTest.hitTriggerDropTargetBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigTestT3.testBasicTargetBehaviour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pinball" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logic.gameelements.target.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="logic.gameelements.target" />
-      <option name="MAIN_CLASS_NAME" value="logic.gameelements.target.DropTargetTest" />
-      <option name="METHOD_NAME" value="hitTriggerDropTargetBonus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigTestT3" />
+      <option name="METHOD_NAME" value="testBasicTargetBehaviour" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropTargetTest.reset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigTestT3.testExtraBallBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pinball" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logic.gameelements.target.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="logic.gameelements.target" />
-      <option name="MAIN_CLASS_NAME" value="logic.gameelements.target.DropTargetTest" />
-      <option name="METHOD_NAME" value="reset" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigTestT3" />
+      <option name="METHOD_NAME" value="testExtraBallBonus" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -456,19 +481,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PinballApp" />
       <item itemvalue="Application.SandBox" />
-      <item itemvalue="JUnit.All in pinball" />
-      <item itemvalue="JUnit.DropTargetTest.hitTriggerDropTargetBonus" />
-      <item itemvalue="JUnit.DropTargetTest.reset" />
+      <item itemvalue="JUnit.BigTestT3" />
+      <item itemvalue="JUnit.BigTestT3.testExtraBallBonus" />
+      <item itemvalue="JUnit.BigTestT3.testBasicTargetBehaviour" />
+      <item itemvalue="Application.PinballApp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PinballApp" />
         <item itemvalue="Application.SandBox" />
-        <item itemvalue="JUnit.All in pinball" />
-        <item itemvalue="JUnit.DropTargetTest.reset" />
-        <item itemvalue="JUnit.DropTargetTest.hitTriggerDropTargetBonus" />
+        <item itemvalue="JUnit.BigTestT3" />
+        <item itemvalue="JUnit.BigTestT3.testBasicTargetBehaviour" />
+        <item itemvalue="JUnit.BigTestT3.testExtraBallBonus" />
       </list>
     </recent_temporary>
   </component>
@@ -544,48 +569,64 @@
       <workItem from="1532715961544" duration="1005000" />
       <workItem from="1532748001415" duration="384000" />
       <workItem from="1532855689433" duration="2481000" />
+      <workItem from="1532884574857" duration="80000" />
+      <workItem from="1533234642591" duration="5000" />
+      <workItem from="1534615929079" duration="1341000" />
+      <workItem from="1534629787506" duration="3095000" />
+      <workItem from="1534638858196" duration="11248000" />
+      <workItem from="1534651668091" duration="6012000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DropTargetTest_reset - 2018.07.24 at 20h 26m 46s.xml">
-      <configuration name="DropTargetTest.reset" configurationId="JUnit" />
+    <history-entry file="BigTestT3_testBasicTargetBehaviour - 2018.08.18 at 19h 38m 59s.xml">
+      <configuration name="BigTestT3.testBasicTargetBehaviour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropTargetTest_reset - 2018.07.24 at 20h 28m 34s.xml">
-      <configuration name="DropTargetTest.reset" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 19h 44m 18s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_pinball - 2018.07.24 at 20h 28m 45s.xml">
-      <configuration name="All in pinball" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 19h 44m 28s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropTargetTest_reset - 2018.07.24 at 20h 29m 44s.xml">
-      <configuration name="DropTargetTest.reset" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 19h 44m 36s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropTargetTest_reset - 2018.07.24 at 20h 30m 03s.xml">
-      <configuration name="DropTargetTest.reset" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 21h 22m 21s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropTargetTest_hitTriggerDropTargetBonus - 2018.07.24 at 20h 36m 04s.xml">
-      <configuration name="DropTargetTest.hitTriggerDropTargetBonus" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 21h 22m 27s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_pinball - 2018.07.24 at 20h 36m 12s.xml">
-      <configuration name="All in pinball" configurationId="JUnit" />
+    <history-entry file="BigTestT3_testBasicTargetBehaviour - 2018.08.18 at 21h 22m 35s.xml">
+      <configuration name="BigTestT3.testBasicTargetBehaviour" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropTargetTest_reset - 2018.07.24 at 20h 37m 54s.xml">
-      <configuration name="DropTargetTest.reset" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 21h 23m 03s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DropTargetTest_reset - 2018.07.24 at 20h 39m 34s.xml">
-      <configuration name="DropTargetTest.reset" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 21h 23m 09s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_pinball - 2018.07.24 at 20h 39m 40s.xml">
-      <configuration name="All in pinball" configurationId="JUnit" />
+    <history-entry file="BigTestT3 - 2018.08.18 at 21h 23m 15s.xml">
+      <configuration name="BigTestT3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172520000" />
+    <option name="totallyTimeSpent" value="194301000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -594,16 +635,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28548387" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39879155" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.28540772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46030042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32930514" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939914" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32832617" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32930514" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.28540772" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.33821377" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -615,6 +656,37 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.28540772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46030042" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32930514" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.28540772" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.33821377" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -622,276 +694,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BigTestT3.java</url>
+          <line>356</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/visitor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>visitor</OriginalElement>
-          <nodes>
-            <node x="" y="">visitor.JackPotBonusVisitor</node>
-            <node x="" y="">visitor.ExtraBallBonusVisitor</node>
-            <node x="" y="">visitor.Visitor</node>
-            <node x="" y="">visitor.BonusVisitor</node>
-            <node x="" y="">visitor.DropTargetBonusVisitor</node>
-            <node x="" y="">visitor.AddScoreVisitor</node>
-            <node x="" y="">visitor.ResetDropTargetVisitor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="408.0" y="97.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/logic/table/NullTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">visitor.JackPotBonusVisitor</node>
-            <node x="" y="">logic.table.NullTable</node>
-            <node x="" y="">controller.Game</node>
-            <node x="" y="">visitor.ExtraBallBonusVisitor</node>
-            <node x="" y="">logic.gameelements.bumper.AbstractBumper</node>
-            <node x="" y="">logic.gameelements.target.SpotTarget</node>
-            <node x="" y="">logic.gameelements.target.DropTarget</node>
-            <node x="" y="">visitor.Visitor</node>
-            <node x="" y="">logic.gameelements.bumper.Bumper</node>
-            <node x="" y="">logic.gameelements.bumper.KickerBumper</node>
-            <node x="" y="">logic.bonus.AbstractBonus</node>
-            <node x="" y="">logic.bonus.Bonus</node>
-            <node x="" y="">facade.HomeworkTwoFacade</node>
-            <node x="" y="">visitor.BonusVisitor</node>
-            <node x="" y="">visitor.DropTargetBonusVisitor</node>
-            <node x="" y="">logic.bonus.DropTargetBonus</node>
-            <node x="" y="">logic.gameelements.Hittable</node>
-            <node x="" y="">logic.gameelements.bumper.PopBumper</node>
-            <node x="" y="">logic.gameelements.target.AbstractTarget</node>
-            <node x="" y="">logic.table.ConcreteTable</node>
-            <node x="" y="">logic.bonus.JackPotBonus</node>
-            <node x="" y="">logic.bonus.ExtraBallBonus</node>
-            <node x="" y="">logic.table.Table</node>
-            <node x="" y="">logic.gameelements.target.Target</node>
-            <node x="" y="">visitor.AddScoreVisitor</node>
-            <node x="" y="">visitor.ResetDropTargetVisitor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="1130.0" y="487.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">visitor.JackPotBonusVisitor</node>
-            <node x="" y="">logic.table.NullTable</node>
-            <node x="" y="">controller.Game</node>
-            <node x="" y="">visitor.ExtraBallBonusVisitor</node>
-            <node x="" y="">logic.gameelements.target.SpotTarget</node>
-            <node x="" y="">logic.gameelements.bumper.AbstractBumper</node>
-            <node x="" y="">visitor.Visitor</node>
-            <node x="" y="">logic.gameelements.target.DropTarget</node>
-            <node x="" y="">logic.gameelements.bumper.Bumper</node>
-            <node x="" y="">logic.gameelements.bumper.KickerBumper</node>
-            <node x="" y="">logic.bonus.AbstractBonus</node>
-            <node x="" y="">logic.bonus.Bonus</node>
-            <node x="" y="">facade.HomeworkTwoFacade</node>
-            <node x="" y="">visitor.BonusVisitor</node>
-            <node x="" y="">visitor.DropTargetBonusVisitor</node>
-            <node x="" y="">logic.bonus.DropTargetBonus</node>
-            <node x="" y="">logic.gameelements.Hittable</node>
-            <node x="" y="">logic.gameelements.bumper.PopBumper</node>
-            <node x="" y="">logic.gameelements.target.AbstractTarget</node>
-            <node x="" y="">logic.table.ConcreteTable</node>
-            <node x="" y="">logic.bonus.JackPotBonus</node>
-            <node x="" y="">logic.bonus.ExtraBallBonus</node>
-            <node x="" y="">logic.table.Table</node>
-            <node x="" y="">logic.gameelements.target.Target</node>
-            <node x="" y="">visitor.AddScoreVisitor</node>
-            <node x="" y="">visitor.ResetDropTargetVisitor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.2220883534136546" x="2129.0" y="1349.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/bonus/ExtraBallBonus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="5" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/bonus/JackPotBonus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/PopBumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/KickerBumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/Hittable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/SpotTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/table/NullTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="95" column="59" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Observer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/table/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/table/ConcreteTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2312">
-          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/JackPotBonusVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/BonusVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/AddScoreVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/bonus/AbstractBonus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1462">
-            <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/bonus/DropTargetBonus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/bonus/Bonus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/facade/HomeworkTwoFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -958,20 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/AbstractTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/logic/gameelements/target/DropTargetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -988,21 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/Entities.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,6 +814,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3.jar!/com/almasb/fxgl/entity/Entities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="137" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BigTestT2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/BonusVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/JackPotBonusVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/SpotTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/AbstractTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/visitor/AddScoreVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/table/ConcreteTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BigTestT3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+          <folding>
+            <element signature="method#testInitialSetting#0;class#BigTestT3#0" />
+            <element signature="method#testPlayableTableNoTarget#0;class#BigTestT3#0" />
+            <element signature="method#testFullPlayableTable#0;class#BigTestT3#0" />
+            <element signature="method#testBallBehaviour#0;class#BigTestT3#0" />
+            <element signature="method#testNewTableBehaviour#0;class#BigTestT3#0" />
+            <element signature="method#testBasicBumperBehaviour#0;class#BigTestT3#0" />
+            <element signature="method#testTableUpdates#0;class#BigTestT3#0" />
+            <element signature="method#testAllDropBonus#0;class#BigTestT3#0" />
+            <element signature="method#testJackPotBonus#0;class#BigTestT3#0" />
+            <element signature="method#testExtraBallBonus#0;class#BigTestT3#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1027,10 +945,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/wheel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/pinball-clipart-pinball-flipper-716811-992490.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/physics/BoundingShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/components/RotationComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/components/DataComponents.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1137">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/ext/jfxrt.jar!/javafx/beans/property/DoubleProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/property/DoubleProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2544" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="271" column="41" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+          <folding>
+            <element signature="e#18652#18653#0" expanded="true" />
+            <element signature="e#18699#18700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/physics/PhysicsComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/GenericControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/FlipperControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/Entities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/physics/HitBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="238">
+          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
@@ -1039,27 +1070,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+        <state relative-caret-position="-493">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3.jar!/com/almasb/fxgl/entity/Entities.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+        <state relative-caret-position="413">
+          <caret line="100" column="94" selection-start-line="100" selection-start-column="94" selection-end-line="100" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1069,6 +1093,66 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pinball</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1076,6 +1160,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.41</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.71034485" />
               </list>
             </option>
           </splitter-proportions>
