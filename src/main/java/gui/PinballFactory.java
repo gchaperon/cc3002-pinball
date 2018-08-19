@@ -17,9 +17,17 @@ import javafx.scene.shape.Box;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Rectangle;
+import logic.gameelements.bumper.Bumper;
+import logic.gameelements.target.Target;
+
+import java.util.Random;
 
 public class PinballFactory implements EntityFactory {
+    Random rnd;
 
+    public PinballFactory() {
+        rnd = new Random();
+    }
     @Spawns("Ball")
     public Entity newBall(SpawnData data) {
         int x = 200;
@@ -87,4 +95,19 @@ public class PinballFactory implements EntityFactory {
                 .build();
     }
 
+    public Entity newTargetEntity(Target target) {
+        return Entities.builder()
+                .at(rnd.nextInt(400), rnd.nextInt(300))
+                .viewFromNodeWithBBox(new Circle(30, Color.BLACK))
+                .with(new TargetComponent(target), new PhysicsComponent())
+                .build();
+    }
+
+    public Entity newBumperEntity(Bumper bumper) {
+        return Entities.builder()
+                .at(rnd.nextInt(400), rnd.nextInt(300))
+                .viewFromNodeWithBBox(new Circle(20, Color.GRAY))
+                .with(new BumperComponent(bumper), new PhysicsComponent())
+                .build();
+    }
 }

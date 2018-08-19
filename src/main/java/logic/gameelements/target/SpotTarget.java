@@ -28,4 +28,9 @@ public class SpotTarget extends AbstractTarget {
     public int getScore() {
         return 0;
     }
+
+    @Override
+    public boolean isSpotTarget() {
+        return true;
+    }
 }

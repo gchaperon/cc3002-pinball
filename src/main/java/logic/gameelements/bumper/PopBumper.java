@@ -14,4 +14,9 @@ public class PopBumper extends AbstractBumper {
     public int getScore() {
         return (this.isUpgraded()) ? 300 : 100;
     }
+
+    @Override
+    public boolean isPopBumper() {
+        return true;
+    }
 }

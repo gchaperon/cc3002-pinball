@@ -22,4 +22,8 @@ public interface Target extends Hittable {
      */
     void reset();
 
+    boolean isSpotTarget();
+
+    boolean isDropTarget();
+
 }

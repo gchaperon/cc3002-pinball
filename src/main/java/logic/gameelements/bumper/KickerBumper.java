@@ -14,4 +14,9 @@ public class KickerBumper extends AbstractBumper {
     public int getScore() {
         return (this.isUpgraded()) ? 1000 : 500;
     }
+
+    @Override
+    public boolean isKickerBumper() {
+        return true;
+    }
 }

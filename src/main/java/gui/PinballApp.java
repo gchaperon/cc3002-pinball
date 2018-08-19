@@ -11,8 +11,17 @@ import com.almasb.fxgl.physics.CollisionHandler;
 import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.settings.GameSettings;
+import facade.HomeworkTwoFacade;
 import javafx.beans.property.DoubleProperty;
 import javafx.scene.input.KeyCode;
+import logic.gameelements.bumper.KickerBumper;
+import logic.gameelements.bumper.PopBumper;
+import logic.gameelements.target.DropTarget;
+import logic.gameelements.target.SpotTarget;
+import logic.gameelements.target.Target;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PinballApp extends GameApplication {
     private int width = 400;
@@ -21,6 +30,10 @@ public class PinballApp extends GameApplication {
     Entity leftFlipper;
     Entity rightFlipper;
     double flipperSpeed = 10;
+    List<Entity> bumpers, targets;
+    List<List<Entity>> masterList;
+
+    HomeworkTwoFacade gameFacade;
 
     @Override
     protected void initSettings(GameSettings settings) {
@@ -42,6 +55,16 @@ public class PinballApp extends GameApplication {
         getGameWorld().addEntityFactory(factory);
         getGameWorld().addEntity(leftFlipper);
         getGameWorld().addEntity(rightFlipper);
+
+        bumpers = new ArrayList<>();
+        targets = new ArrayList<>();
+
+        masterList = new ArrayList<List<Entity>>() {{
+            add(bumpers);
+            add(targets);
+        }};
+
+
     }
 
     private void initBackGround() {
@@ -72,7 +95,7 @@ public class PinballApp extends GameApplication {
             }
         }, KeyCode.SPACE);
 
-        input.addAction(new UserAction("LeftFlipper movement") {
+        input.addAction(new UserAction("LeftFlipper Movement") {
             @Override
             protected void onAction() {
                 System.out.println(leftFlipper.angleProperty().getValue());
@@ -83,7 +106,7 @@ public class PinballApp extends GameApplication {
             }
         }, KeyCode.LEFT);
 
-        input.addAction(new UserAction("RightFlipper movement") {
+        input.addAction(new UserAction("RightFlipper Movement") {
             @Override
             protected void onAction() {
                 System.out.println(rightFlipper.angleProperty().getValue());
@@ -93,21 +116,53 @@ public class PinballApp extends GameApplication {
                     rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
             }
         }, KeyCode.RIGHT);
+
+        input.addAction(new UserAction("New Table") {
+            @Override
+            protected void onActionBegin() {
+                if (!getGameWorld().getSingleton(PinballTypes.BALL).isPresent())
+                    setNewTable();
+            }
+        }, KeyCode.N);
+    }
+
+    private void setNewTable() {
+        int nBumpers = 5;
+        int nTargets = 3;
+
+        for (List<Entity> list:
+                masterList) {
+            for (Entity entity :
+                    list) {
+                entity.removeFromWorld();
+            }
+            list.clear();
+        }
+
+        for (int i = 0; i < nBumpers; i++) {
+            Entity bumperEntity = factory.newBumperEntity(null);
+            targets.add(bumperEntity);
+            getGameWorld().addEntity(bumperEntity);
+        }
+        for (int i = 0; i < nTargets; i++) {
+            Entity targetEntity = factory.newTargetEntity(null);
+            targets.add(targetEntity);
+            getGameWorld().addEntity(targetEntity);
+        }
     }
 
     @Override
     protected void onUpdate(double tpf) {
         // control de leftFlipper
-        if (!getInput().isHeld(KeyCode.LEFT) && leftFlipper.angleProperty().getValue() < 25-flipperSpeed)
+        if (!getInput().isHeld(KeyCode.LEFT) && leftFlipper.angleProperty().getValue() < 25 - flipperSpeed)
             leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(flipperSpeed);
-        if (leftFlipper.angleProperty().getValue() > 25-flipperSpeed)
+        if (leftFlipper.angleProperty().getValue() > 25 - flipperSpeed)
             leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
         //control de rightFlipper
-        if (!getInput().isHeld(KeyCode.RIGHT) && rightFlipper.angleProperty().getValue() > -25+flipperSpeed)
+        if (!getInput().isHeld(KeyCode.RIGHT) && rightFlipper.angleProperty().getValue() > -25 + flipperSpeed)
             rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(-flipperSpeed);
-        if (rightFlipper.angleProperty().getValue() < -25+flipperSpeed)
+        if (rightFlipper.angleProperty().getValue() < -25 + flipperSpeed)
             rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(0d);
-
 
 
     }

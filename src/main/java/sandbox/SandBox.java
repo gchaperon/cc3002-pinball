@@ -32,7 +32,7 @@ public class SandBox extends GameApplication {
         flipper = Entities.builder()
                 .at(200, 200)
 //                .type(SandBoxTypes.FLIPPER)
-                .viewFromNodeWithBBox(new Rectangle(250, 20, Color.BLACK))
+                .viewFromNodeWithBBox(new Rectangle(250, 20, Color.LIGHTBLUE))
 //                .rotate(20)
                 .with(physics)
                 .build();

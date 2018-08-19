@@ -60,4 +60,8 @@ public class DropTarget extends AbstractTarget {
         }
     }
 
+    @Override
+    public boolean isDropTarget() {
+        return true;
+    }
 }

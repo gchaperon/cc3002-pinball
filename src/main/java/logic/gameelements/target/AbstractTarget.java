@@ -35,6 +35,16 @@ public abstract class AbstractTarget extends Observable implements Target {
     }
 
     @Override
+    public boolean isSpotTarget() {
+        return false;
+    }
+
+    @Override
+    public boolean isDropTarget() {
+        return false;
+    }
+
+    @Override
     abstract public int hit();
 
     @Override

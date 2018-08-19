@@ -58,6 +58,16 @@ public abstract class AbstractBumper extends Observable implements Bumper {
         isUpgraded = false;
     }
 
+    @Override
+    public boolean isKickerBumper() {
+        return false;
+    }
+
+    @Override
+    public boolean isPopBumper() {
+        return false;
+    }
+
     /**
      * Adds one to the number of times this bumper has been hit.
      * Notifies its observers when it's been hit, so the correct score, depending
