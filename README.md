@@ -1,6 +1,7 @@
 # Pinball - Homework CC3002
 
-Basic logic for the pinball game. No GUI yet.
+Basic logic for the pinball game and GUI, sadly both are not linked yet, so no score nor
+fancy hittable upgrade.
 
 ## Getting Started
 
@@ -29,6 +30,29 @@ sudo apt install openjdk-8-jdk
 ```
 I'm hoping you'are using some Debian based Linux distro, otherwise I really 
 don't know how to install packages.
+## How to play
+For you to play the game yo need to compile the file PinballApp located in the GUI package.
+The keys to play are:
+* Left arrow key - Activate left flipper
+* Right arrow key - Activate right flipper
+* N - Set new table
+* Space bar - Throw new ball
+* CTRL+r - Reset game
+
+Some details tho, when you first start the game, there is no table set, so you
+cannot throw a new ball. So first you need to set a new table to star playin'.
+Then, you cannot throw a new ball when there is already one in play.
+Also, you need to wait 'til  you loose the current ball in order to set a new table.
+
+The color codes for the hittables are (not that it matter, they do nothing):
+* SpotTarget - Light blue
+* DropTarget - Light green
+* KickerBumper - Light pink
+* PopBumper - Light yellow
+
+## Features
+Just the independent flippers.
+
 ## Running the tests
 
 Ahm, yeah.

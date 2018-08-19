@@ -34,7 +34,15 @@ public interface Bumper extends Hittable {
      */
     void downgrade();
 
+    /**
+     * Method to check if bumper is kicker bumper
+     * @return true if it's a kicker bumpers, false otherwise
+     */
     boolean isKickerBumper();
 
+    /**
+     * Method to check if bumper is pop bumper
+     * @return true if it's a pop bumpers, false otherwise
+     */
     boolean isPopBumper();
 }

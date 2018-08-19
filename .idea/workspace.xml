@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" line="43" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/gui/FlipperControl.java" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" line="51" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f62f7f87-0675-4948-b9c3-1614d0912c51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.45.47.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.46.26.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.47.05.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.47.55.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.47.57.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.48.40.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.49.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.49.27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.50.11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-02.50.35.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-03.01.49.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-03.02.03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-03.02.18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-03.03.43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-03.08.20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-15.02.16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-15.04.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-Aug-2018-15.06.08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/BallComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/BumperComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BumperComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/FlipperControl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/AbstractBumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/AbstractBumper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/PinballTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PinballTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/TargetComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TargetComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/KickerBumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/KickerBumper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/PopBumper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/PopBumper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/AbstractTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/AbstractTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/SpotTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/SpotTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +96,7 @@
     <session id="1706678245">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -105,9 +107,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="55" />
+          <entry key="java" value="64" />
           <entry key="kt" value="4" />
+          <entry key="md" value="1" />
           <entry key="png" value="2" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -115,20 +119,24 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="64" />
           <entry key="Kotlin" value="4" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5141" />
+          <entry key="java" value="7058" />
+          <entry key="md" value="1013" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5141" />
+          <entry key="JAVA" value="7058" />
+          <entry key="Markdown" value="1013" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -138,13 +146,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="423">
+                <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -152,48 +160,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
-              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+            <state relative-caret-position="544">
+              <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="method#bottomLeft#0;class#PinballFactory#0" />
+                <element signature="method#bottomRight#0;class#PinballFactory#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/BumperComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gui/TargetComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -212,6 +185,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>JackPotBonusVisitor</find>
+      <find>printl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,7 +217,6 @@
         <option value="$PROJECT_DIR$/src/main/java/visitor/AddScoreVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/visitor/BonusVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/visitor/ResetDropTargetVisitor.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/logic/bonus/DropTargetBonus.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/logic/table/ConcreteTableTest.java" />
@@ -251,26 +224,27 @@
         <option value="$PROJECT_DIR$/src/test/java/logic/gameelements/target/DropTargetTest.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
         <option value="$PROJECT_DIR$/src/main/java/sandbox/SandboxTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/sandbox/Sandbox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/PinballTypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/FlipperControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/sandbox/GenericControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/BallComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/AbstractBumper.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/PopBumper.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/KickerBumper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/AbstractTarget.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java" />
         <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/SpotTarget.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/TargetComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/BumperComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/PinballApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/PinballFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/PinballTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/BumperComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/TargetComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -325,98 +299,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="gameelements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="gameelements" type="462c0819:PsiDirectoryNode" />
-              <item name="bumper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="gameelements" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cc3002-pinball" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pinball" type="b2602c69:ProjectViewProjectNode" />
@@ -446,7 +329,7 @@
     <property name="SearchEverywhereHistoryKey" value="game&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/controller/Game.java&#10;Jack&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/visitor/JackPotBonusVisitor.java&#10;ga&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/controller/Game.java&#10;Null&#9;FILE&#9;file:///home/gabriel/2018-1/CC3002-1_Metodologias/cc3002-pinball/src/main/java/logic/table/NullTable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534701915425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534713531343" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -665,7 +548,7 @@
       <workItem from="1534629787506" duration="3095000" />
       <workItem from="1534638858196" duration="11248000" />
       <workItem from="1534651668091" duration="9162000" />
-      <workItem from="1534697976925" duration="3698000" />
+      <workItem from="1534697976925" duration="7944000" />
     </task>
     <servers />
   </component>
@@ -702,7 +585,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201149000" />
+    <option name="totallyTimeSpent" value="205395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,7 +600,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -725,9 +608,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.28540772" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46030042" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.28540772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28969958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
@@ -798,26 +681,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/logic/gameelements/target/DropTargetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/app/ApplicationMode.kt" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.vmoptions" />
     <entry file="file://$PROJECT_DIR$/src/test/java/logic/table/ConcreteTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -938,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/textures/wheel.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -995,13 +856,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/GenericControl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/FlipperControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/Entities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1013,25 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1053,17 +888,6 @@
           <folding>
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/KickerBumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1090,17 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-          <folding>
-            <element signature="e#2061#2062#0" expanded="true" />
-            <element signature="e#2104#2105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/almasb/fxgl-base/0.5.3/fxgl-base-0.5.3-sources.jar!/com/almasb/fxgl/entity/SpawnData.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1122,24 +935,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/BallComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/FlipperControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="133" column="59" selection-start-line="133" selection-start-column="59" selection-end-line="133" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/DropTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2088#2089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/KickerBumper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/target/Target.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="544">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logic/gameelements/bumper/Bumper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBoxTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sandbox/SandBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+        <state relative-caret-position="85">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/TargetComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
@@ -1147,10 +1023,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/BumperComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
@@ -1160,23 +1043,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
-          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        <state relative-caret-position="544">
+          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="method#bottomLeft#0;class#PinballFactory#0" />
+            <element signature="method#bottomRight#0;class#PinballFactory#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/PinballApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="423">
+            <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,9 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
+/**
+ * SandBox to try out things without breaking the app.
+ */
 public class SandBox extends GameApplication {
     Entity flipper;
     PhysicsComponent physics;

@@ -22,8 +22,16 @@ public interface Target extends Hittable {
      */
     void reset();
 
+    /**
+     * Method to check if target is spot target
+     * @return true if it's a spot target, false otherwise
+     */
     boolean isSpotTarget();
 
+    /**
+     * Method to check if target is drop target
+     * @return true if it's a drop target, false otherwise
+     */
     boolean isDropTarget();
 
 }

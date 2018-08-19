@@ -12,24 +12,26 @@ import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.settings.GameSettings;
 import facade.HomeworkTwoFacade;
-import javafx.beans.property.DoubleProperty;
 import javafx.scene.input.KeyCode;
-import logic.gameelements.bumper.KickerBumper;
-import logic.gameelements.bumper.PopBumper;
-import logic.gameelements.target.DropTarget;
-import logic.gameelements.target.SpotTarget;
+import logic.gameelements.bumper.Bumper;
 import logic.gameelements.target.Target;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Pinball game, the logic for the game is in the logic package, in this package there is only the gui implementation.
+ * This is the gui's main controllers
+ *
+ * @author Gabriel Chaperon
+ */
 public class PinballApp extends GameApplication {
     private int width = 400;
     private int height = 600;
     PinballFactory factory = new PinballFactory();
     Entity leftFlipper;
     Entity rightFlipper;
-    double flipperSpeed = 10;
+    double flipperSpeed = 15;
     List<Entity> bumpers, targets;
     List<List<Entity>> masterList;
 
@@ -64,9 +66,12 @@ public class PinballApp extends GameApplication {
             add(targets);
         }};
 
-
+        gameFacade = new HomeworkTwoFacade();
     }
 
+    /**
+     * Method to initialize background
+     */
     private void initBackGround() {
         Entity walls = Entities.makeScreenBounds(100);
         walls.setType(PinballTypes.WALL);
@@ -88,7 +93,7 @@ public class PinballApp extends GameApplication {
         input.addAction(new UserAction("Release Ball") {
             @Override
             protected void onActionBegin() {
-                if (!getGameWorld().getSingleton(PinballTypes.BALL).isPresent()) {
+                if (!getGameWorld().getSingleton(PinballTypes.BALL).isPresent() && gameFacade.isPlayableTable()) {
                     getGameWorld().spawn("Ball");
                     getAudioPlayer().playSound("fium.wav");
                 }
@@ -98,7 +103,6 @@ public class PinballApp extends GameApplication {
         input.addAction(new UserAction("LeftFlipper Movement") {
             @Override
             protected void onAction() {
-                System.out.println(leftFlipper.angleProperty().getValue());
                 if (leftFlipper.angleProperty().getValue() > -25+flipperSpeed)
                     leftFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(-flipperSpeed);
                 else
@@ -109,7 +113,6 @@ public class PinballApp extends GameApplication {
         input.addAction(new UserAction("RightFlipper Movement") {
             @Override
             protected void onAction() {
-                System.out.println(rightFlipper.angleProperty().getValue());
                 if (rightFlipper.angleProperty().getValue() < 25-flipperSpeed)
                     rightFlipper.getComponent(PhysicsComponent.class).setAngularVelocity(flipperSpeed);
                 else
@@ -126,9 +129,11 @@ public class PinballApp extends GameApplication {
         }, KeyCode.N);
     }
 
+    /**
+     * Method to set a new table. Ir erases the last table, sets a new table in the game object , creates entities
+     * according to the hittables of the new table created.
+     */
     private void setNewTable() {
-        int nBumpers = 5;
-        int nTargets = 3;
 
         for (List<Entity> list:
                 masterList) {
@@ -139,13 +144,18 @@ public class PinballApp extends GameApplication {
             list.clear();
         }
 
-        for (int i = 0; i < nBumpers; i++) {
-            Entity bumperEntity = factory.newBumperEntity(null);
+        gameFacade.setGameTable(gameFacade.newFullPlayableTable("asd",
+                6, 0.5, 2, 2));
+        for (Bumper bumper :
+                gameFacade.getBumpers()) {
+            Entity bumperEntity = factory.newBumperEntity(bumper);
             targets.add(bumperEntity);
             getGameWorld().addEntity(bumperEntity);
         }
-        for (int i = 0; i < nTargets; i++) {
-            Entity targetEntity = factory.newTargetEntity(null);
+
+        for (Target target :
+                gameFacade.getTargets()) {
+            Entity targetEntity = factory.newTargetEntity(target);
             targets.add(targetEntity);
             getGameWorld().addEntity(targetEntity);
         }

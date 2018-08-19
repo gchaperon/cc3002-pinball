@@ -1,5 +1,8 @@
 package gui;
 
+/**
+ * Enum with the several types in this game
+ */
 public enum PinballTypes {
-    BALL, WALL
+    BALL, WALL, FLIPPER, TARGET, BUMPER
 }
